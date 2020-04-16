@@ -15,11 +15,15 @@
   "license": "ISC",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.2",
+    "@vue/component-compiler-utils": "^3.1.2",
     "http-server": "^0.12.1",
-    "sass": "^1.26.3"
+    "sass": "^1.26.3",
+    "vue-template-compiler": "^2.6.11"
   },
   "dependencies": {
     "parcel-bundler": "^1.12.4",
-    "tailwindcss": "^1.2.0"
+    "tailwindcss": "^1.2.0",
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4"
   }
 }

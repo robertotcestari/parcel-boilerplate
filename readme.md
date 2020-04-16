@@ -13,6 +13,18 @@ Scss já está configurado por padrão.
 
 O tailwindcss já está configurado por padrão também. Além disso, em produção, é aplicado o purgecss, que faz com que o tamanho reduza drasticamente.
 
+## Vue
+
+Como o build padrão do Vue é o runtime-only (e não com o compiler), é necessário montar o Vue com a forma correta:
+
+``` javascript
+import Vue from 'vue';
+import App from './App.vue';
+
+new Vue({ render: h => h(App) }).$mount('#app');
+```
+
+
 ## Available Scripts
 
 
