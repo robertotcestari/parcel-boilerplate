@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+$color: #ff8052;
+
+body {
+    background: $color;
+}
