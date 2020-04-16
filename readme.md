@@ -27,3 +27,10 @@ Builds the project for production to the dist folder.
 ### npm run serve
 
 Serve the production build on `http://localhost:8000`.
+
+## Como utilizar
+
+1. Faça um git clone do repositório. 
+   1. `git clone https://github.com/robertotcestari/parcel-boilerplate.git`
+2. Rode um `npm install`
+3. Apague a pasta `.git` para começar com um novo histórico. 
